@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LinkedListStackQueue
+namespace Stack_And_Queue
 {
     class Program
     {
@@ -64,25 +64,6 @@ namespace LinkedListStackQueue
                     break;
 
             }
-        }
-    }
-}
-
-
-
-
-
-
-
-namespace LinkedListStackQueue
-{
-    class Node<T>
-    {
-        public T Data;
-        public Node<T> next;
-        public Node(T data)
-        {
-            this.Data = data;
         }
     }
 }
